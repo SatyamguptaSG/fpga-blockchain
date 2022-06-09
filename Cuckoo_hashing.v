@@ -19,7 +19,7 @@ reg ch1[9:0];//stores if number is stored in arr1
 reg ch2[9:0];//stores if number is stored in arr2
 endmodule;
 
-module[31:0]num insert(input [31:0]num,output pos)// pos i position in idex
+module insert(input [31:0]num,output pos)// pos i position in idex
 wire [31:0] dummy1;
 wire [31:0] dummy2;
 // f1(num,i1);
